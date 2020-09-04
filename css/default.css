@@ -88,30 +88,29 @@ button{
     }
 }
 
-@media  only screen and (min-width: 500px) {
+@media  only screen and (min-width: 505px) {
     .g1{
         height: 505px;
     }
     .g2{
-        height: 5000px;
-        background-position:0 -505px;
+        height: 5200px;
+        background-position:0 -520px;
     }
-    .fixmenu{
-        height: 100px;
-    }
+
     button{
-        font-size: 25px;
+        font-size: 16px;
     }
     .card{
-        font-size: 25px;
-        padding-left:780px;
+        font-size: 16px;
+        padding-left: 40px;
     }
     .card h2{
-        font-size: 25px;
+        font-size: 16px;
     }
     .card dt{
-        line-height: 50px;
+        line-height: 30px;
     }
+
 }
 
 @media  only screen and (min-width: 768px) {

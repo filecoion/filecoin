@@ -50,11 +50,11 @@ button{
 }
 @media  only screen and (min-width: 360px) {
    .g1{
-       height: 340px;
+       height: 360px;
    }
     .g2{
-        height: 340px;
-        background-position: 340px;
+        height: 3700px;
+        background-position: 0 -360px;
     }
 }
 @media  only screen and (min-width: 375px) {
@@ -62,7 +62,7 @@ button{
         height: 375px;
     }
     .g2{
-        height: 4000px;
+        height: 3900px;
         background-position: 0 -375px;
     }
 }
@@ -88,12 +88,80 @@ button{
     }
 }
 
-@media  only screen and (min-width: 510px) {
+@media  only screen and (min-width: 500px) {
     .g1{
-        height: 410px;
+        height: 505px;
     }
     .g2{
-        height: 340px;
-        background-position:0 410px;
+        height: 5000px;
+        background-position:0 -505px;
+    }
+    .fixmenu{
+        height: 100px;
+    }
+    button{
+        font-size: 25px;
+    }
+    .card{
+        font-size: 25px;
+        padding-left:780px;
+    }
+    .card h2{
+        font-size: 25px;
+    }
+    .card dt{
+        line-height: 50px;
+    }
+}
+
+@media  only screen and (min-width: 768px) {
+    .g1{
+        height: 768px;
+    }
+    .g2{
+        height: 7900px;
+        background-position:0 -768px;
+    }
+    .fixmenu{
+        height: 100px;
+    }
+    button{
+        font-size: 25px;
+    }
+    .card{
+        font-size: 25px;
+        padding-left: 100px;
+    }
+    .card h2{
+        font-size: 25px;
+    }
+    .card dt{
+        line-height: 50px;
+    }
+}
+
+@media  only screen and (min-width: 1024px) {
+    .g1{
+        height: 1024px;
+    }
+    .g2{
+        height: 10500px;
+        background-position:0 -1024px;
+    }
+    .fixmenu{
+        height: 100px;
+    }
+    button{
+        font-size: 25px;
+    }
+    .card{
+        font-size: 25px;
+        padding-left: 100px;
+    }
+    .card h2{
+        font-size: 25px;
+    }
+    .card dt{
+        line-height: 50px;
     }
 }

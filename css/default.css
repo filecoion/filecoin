@@ -1,0 +1,99 @@
+body{
+  padding: 0;
+    margin: 0;
+    background: #1b1b1b;
+}
+.bg{
+    background: url("https://jmy-pic.wejianzhan.com/0/pic/41fc4356b24b3a01f038951d7411f2fb.jpg@q_80");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-origin: content-box;
+}
+.card{
+    color: #0ccb2d;
+    background: #1b1b1b;
+    font-size: 12px;
+    padding: 10px 20px 10px 34px;
+}
+.card h2{
+    color: #7fefac;
+    font-size: 16px;
+
+}
+.card dt{
+    line-height: 25px;
+}
+.fixmenu{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background: #0a2e16;
+    width: 100%;
+    display: flex;
+}
+button{
+    color: #efefef;
+    border: none;
+    background: coral;
+    line-height: 40px;
+    cursor: pointer;
+    flex: 1;
+}
+@media  only screen and (min-width: 320px) {
+    .g1{
+        height: 320px;
+    }
+    .g2{
+        height: 3270px;
+        background-position:0 -320px;
+    }
+}
+@media  only screen and (min-width: 360px) {
+   .g1{
+       height: 340px;
+   }
+    .g2{
+        height: 340px;
+        background-position: 340px;
+    }
+}
+@media  only screen and (min-width: 375px) {
+    .g1{
+        height: 375px;
+    }
+    .g2{
+        height: 4000px;
+        background-position: 0 -375px;
+    }
+}
+
+
+@media  only screen and (min-width: 411px) {
+    .g1{
+        height: 410px;
+    }
+    .g2{
+        height: 4200px;
+        background-position:0 -410px;
+    }
+}
+
+@media  only screen and (min-width: 414px) {
+    .g1{
+        height: 410px;
+    }
+    .g2{
+        height: 4210px;
+        background-position:0 -410px;
+    }
+}
+
+@media  only screen and (min-width: 510px) {
+    .g1{
+        height: 410px;
+    }
+    .g2{
+        height: 340px;
+        background-position:0 410px;
+    }
+}

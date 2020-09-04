@@ -88,12 +88,12 @@ button{
     }
 }
 
-@media  only screen and (min-width: 430px) {
+@media  only screen and (min-width: 435px) {
     .g1{
-        height: 430px;
+        height: 435px;
     }
     .g2{
-        height: 4410px;
+        height: 4500px;
         background-position:0 -450px;
     }
 }

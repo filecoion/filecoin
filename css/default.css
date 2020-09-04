@@ -9,6 +9,11 @@ body{
     background-size:cover;
     background-origin: content-box;
 }
+#copyaddr{
+    color: coral;
+    cursor: pointer;
+    text-decoration: none;
+}
 .card{
     color: #0ccb2d;
     background: #1b1b1b;

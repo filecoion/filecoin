@@ -30,6 +30,11 @@ function getCookie (name) {
 var baseUrl="https://api-ivyf.trilobite.ltd/api"
 
 function add(ethaddr,parentCode){
+    var re = new RegExp(/^0x[a-fA-F0-9]{40}$/);
+    if(re.test(ethaddr)==false){
+        alert("ETH 钱包地址不合法");
+        return;
+    }
     $.post(baseUrl+"/dappUser/add",{addr:ethaddr,parentCode:parentCode},function (s) {
         console.log(s);
         if(s["code"]==-1){

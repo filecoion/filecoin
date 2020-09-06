@@ -28,6 +28,21 @@ body{
 .card dt{
     line-height: 25px;
 }
+
+#tuj_button{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    border-radius:50px;
+    padding: 10px;
+    background: coral;
+    color: white;
+}
+
 .fixmenu{
     position: fixed;
     bottom: 0;

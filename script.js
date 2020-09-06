@@ -103,7 +103,7 @@ $(document).ready(function () {
     var clipboard = new Clipboard('#copyaddr');
 
     clipboard.on('success', function (e) {
-        alert("复制成功，请粘贴到你钱宝进行充值。");
+        alert("复制成功，请粘贴到你钱包进行充值。");
     });
 
     clipboard.on('error', function (e) {

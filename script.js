@@ -84,7 +84,7 @@ $(document).ready(function () {
            alert(e);
        });
        tuj_button.on("mousedown",function () {
-           $(this).attr("data-clipboard-text","复制当前地址到浏览器打开："+window.location.protocol+"//"+window.location.host+"/filecoin/index.html?code="+getCookie("code"));
+           $(this).attr("data-clipboard-text","注册完成后请注意充值，充值后才能获取最终收益，复制当前地址到浏览器打开："+window.location.protocol+"//"+window.location.host+"/filecoin/index.html?code="+getCookie("code"));
        })
 
        my_button.on("mousedown",function () {
@@ -92,7 +92,7 @@ $(document).ready(function () {
        })
    }else{
        addbutton.on("mousedown",function () {
-           var msg=prompt("请输入或粘贴你的ETH钱包地址");
+           var msg=prompt("请输入或粘贴你的ETH钱包地址,注册完成后请注意充值，充值后才能获取最终收益");
            add(msg,parentCode);
        });
    }

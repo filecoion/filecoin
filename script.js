@@ -41,9 +41,11 @@ function add(ethaddr,parentCode){
         if(s["code"]==-3){
             alert("已存在当前ETH地址，请更换加入,如果你清除了缓存，系统自动切换当前地址的用户为你显示");
             setCookie("code",s["data"].code);
+            document.location.reload();
         }
         if(s["code"]==200){
             setCookie("code",s["data"].code);
+            document.location.reload();
         }
     })
 }
